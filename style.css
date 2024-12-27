@@ -1,6 +1,6 @@
 body{
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,10,11,1) 100%);
-    font-family: monospace;
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: system-ui;
     color: white;
 }
 
@@ -12,10 +12,10 @@ section{
     height: 100vh;
 }
 
-section div{
-    background: rgb(1, 0, 29);
-    padding: 20px;
+section .calculator{
+    background-color: #0F2028;
     border-radius: 10px;
+    padding: 20px;
 }
 
 section input{
@@ -27,7 +27,7 @@ section input{
 }
 
 section button{
-    background-color: rgb(4, 0, 82);
+    background-color: #244d61;
     border-radius: .6rem;
     border-style: none;
     color: white;
@@ -35,7 +35,7 @@ section button{
 }
 
 section button:hover{
-    background-color: rgb(12, 0, 179);
+    background-color: #2b4956;
 }
 
 .keys{
@@ -47,16 +47,16 @@ section button:hover{
 
 .zero{
     grid-column: span 2;
-    background-color: #0f0085;
+    background-color: #193643;
 }
 
 .equals {
     grid-row: span 2;
-    background-color: #ae660e;
+    background-color: #b2164f;
     color: white;
 }
 
 .number{
-    background-color: #0f0085;
+    background-color: #193643;
     color: white;
 }
